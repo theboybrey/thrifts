@@ -29,10 +29,13 @@ p{
     line-height: 1.5;
 }
 
+<<<<<<< HEAD
 img{
      width: 100%;
 }
  
+=======
+>>>>>>> ba8708f1aae0853f1382ca7e53aa8667b38f0461
 .container{
     max-width: 900px;
     margin: 0 auto;
@@ -41,18 +44,26 @@ img{
     justify-content: center;
     align-items: center;
     height: 100vh;
+<<<<<<< HEAD
     text-align: center;
     border-radius: 5px;
+=======
+>>>>>>> ba8708f1aae0853f1382ca7e53aa8667b38f0461
 }
 
 .counter-div{
     width: 40rem;
+<<<<<<< HEAD
     border: 1px solid var(--white);
+=======
+    border: 1px solid var(--grey);
+>>>>>>> ba8708f1aae0853f1382ca7e53aa8667b38f0461
     padding: 1rem;
     background-color: var(--light-blue);
     color: var(--white);
     text-align: center;
     border-radius: 5px;
+<<<<<<< HEAD
 }
 
 .counter > *{
@@ -63,12 +74,25 @@ img{
     font-size: 4rem;
     border: 1px solid var(--white);
     padding: 0 1rem;
+=======
+    font-weight: 700;
+    box-shadow: #1c2b2d;
+}
+
+.counter-div > *{
+    margin-bottom: 2rem;
+}
+
+.count{
+    font-size: 4rem;
+>>>>>>> ba8708f1aae0853f1382ca7e53aa8667b38f0461
 }
 
 .buttons button{
     padding: 1rem;
     margin: 0 1rem;
     font-size: 1.5rem;
+<<<<<<< HEAD
     color: var(--black);
     font-weight: 700;
     border: none;
@@ -76,4 +100,30 @@ img{
     border-radius: 35px;
     background-color: var(--white);
     margin-top: 2rem;
+=======
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-family: 'Montserrat';
+    cursor: pointer;
+
+}
+
+button.subtract{
+    background-color: orangered;
+    color: var(--white);
+}
+button.reset{
+    background-color: var(--white);
+    color: var(--black);
+}
+button.add{
+    background-color: green;
+    color: var(--white);
+    font-family: 'Montserrat';
+}
+
+.fas{
+    display: visible;
+>>>>>>> ba8708f1aae0853f1382ca7e53aa8667b38f0461
 }
