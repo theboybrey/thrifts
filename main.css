@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family= Open+Sans:wght@300;400;500;600;700 & display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+ 
+:root{
+    --white: #fff;
+    --black: #1c2b2d;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --grey: #eee;
+    --dark-grey: #222831;
+
+}
+body{
+    font-weight: 600;
+    font-family: "Montserrat";
+}
+
+html{
+    font-size: 10px;
+}
+
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.counter-div{
+    width: 40rem;
+    border: 1px solid var(--grey);
+    padding: 1rem;
+    background-color: var(--light-blue);
+    color: var(--white);
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 700;
+    box-shadow: #1c2b2d;
+}
+
+.counter-div > *{
+    margin-bottom: 2rem;
+}
+
+.count{
+    font-size: 4rem;
+}
+
+.buttons button{
+    padding: 1rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-family: 'Montserrat';
+    cursor: pointer;
+
+}
+
+button.subtract{
+    background-color: orangered;
+    color: var(--white);
+}
+button.reset{
+    background-color: var(--white);
+    color: var(--black);
+}
+button.add{
+    background-color: green;
+    color: var(--white);
+    font-family: 'Montserrat';
+}
+
+.fas{
+    display: visible;
+}
