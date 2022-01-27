@@ -1,0 +1,134 @@
+:root{
+    --white: #fff;
+    --black: #131010;
+    --grey: #fff;
+    --blue: #1E9FF2;
+    --indigo: #6610F2;
+    --purple: #6F42C1;
+    --pink: #E83E8C;
+    --red: #FF4961;
+    --orange: #FF9149;
+    --yellow: #FFC107;
+    --green: #28D094;
+    --teal: #20C997;
+    --cyan: #666EE8;
+    --white: #FFFFFF;
+    --gray: #6B6F82;
+    --gray-dark: #464855;
+    --primary: #666EE8;
+    --secondary: #6B6F82;
+    --success: #28D094;
+    --info: #1E9FF2;
+    --warning: #FF9149;
+    --danger: #FF4961;
+    --light: #BABFC7;
+    --dark: #464855;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: 'Open Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+    --font-family-monospace: 'Quicksand',Georgia,'Times New Roman',Times,serif;
+}
+ *{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ html{
+     font-size: 10px;
+     font-family: "Poppins";
+ }
+
+ body{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color:var(--blue);
+     height: 100vh;
+ }
+
+ p{
+     font-size: 1.6rem;
+     line-height: 1.5;
+ }
+
+ header{
+     text-align: center;
+     color: var(--white);
+     padding-bottom: 3rem;
+
+ }
+
+ header h1{
+     font-size: 3.5rem;
+     font-weight: 300;
+     line-height: 1;
+ }
+
+ header h1 span{
+     font-weight: 700;
+ }
+
+ section .container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ 
+ form button{
+     outline: none;
+     border: 1px solid var(--white);
+     padding: 8px;
+     border-radius: 3px;
+     background-color: transparent;
+     color: var(--white);
+     font-size: 1.4rem;
+     font-weight: 700;
+     transform: all .3s;
+ }
+
+ form button:hover{
+     background-color: var(--secondary);
+     cursor: pointer; 
+    transform: scale(.95);
+    transition: ease-in-out .3s;
+ }
+
+ .model{
+     display: none;
+     position: fixed;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: auto;
+     background-color: rgba(0,0,0,.5);
+     z-index: 1;
+ }
+
+ .model-content{
+     width: 80%;
+     max-width: 60rem;
+     background-color: var(--grey);
+     margin: 15% auto;
+     padding: 2rem;
+     border: 1px solid #777;
+     text-align: center;
+     animation: slide ease .8s;
+
+ }
+
+ @keyframes slide {
+     form{
+        transform: translateY(-30);
+     }
+     to{
+        transform: translateY(0);
+     }
+ }

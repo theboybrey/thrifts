@@ -53,15 +53,7 @@ img{
 
 .counter-div{
     width: 40rem;
-<<<<<<< HEAD
-    border: 1px solid var(--white);
-=======
-    border: 1px solid var(--grey);
->>>>>>> ba8708f1aae0853f1382ca7e53aa8667b38f0461
-    padding: 1rem;
-    background-color: var(--light-blue);
     color: var(--white);
-    text-align: center;
     border-radius: 5px;
 <<<<<<< HEAD
 }
