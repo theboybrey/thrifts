@@ -29,6 +29,7 @@ p{
     line-height: 1.5;
 }
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 img{
      width: 100%;
@@ -36,10 +37,13 @@ img{
  
 =======
 >>>>>>> ba8708f1aae0853f1382ca7e53aa8667b38f0461
+=======
+>>>>>>> Stashed changes
 .container{
     max-width: 900px;
     margin: 0 auto;
     padding: 0 20px;
+<<<<<<< Updated upstream
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,4 +122,6 @@ button.add{
 .fas{
     display: visible;
 >>>>>>> ba8708f1aae0853f1382ca7e53aa8667b38f0461
+=======
+>>>>>>> Stashed changes
 }
