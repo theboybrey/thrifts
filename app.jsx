@@ -1,2 +1,2 @@
 
-//Just a singl
+//Just a sin
