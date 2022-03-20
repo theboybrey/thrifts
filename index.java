@@ -241,7 +241,8 @@ public class TicketMachine
         System.out.println("The price of the ticket is "+ price +" cents.");
     }
     
-    //Implementing the empty method
+    //Implementing the empty method to set back the price to the default price
+  
     public void empty(){
         total = 0;
     }
