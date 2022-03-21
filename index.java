@@ -5,7 +5,7 @@ public
  * flat-fare tickets.
  * The price of a ticket is specified via the constructor.
  * It is a machine in the sense that it trusts its users
- * to insert enough money before trying to print a ticket.
+ * to insert money before trying to print a ticket.
  * It also assumes that users enter sensible amounts.
  *
  * @author David J. Barnes and Michael Kölling
