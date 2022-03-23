@@ -20,7 +20,7 @@ public class TicketMachine
     // The total amount of money collected by this machine.
     private int total;
     //The price is given to customers
-    
+    private int cusPrice;
     /**
      * Create a machine that issues tickets of the given price.
      * Note that the price must be greater than zero, and there
