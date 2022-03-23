@@ -2,7 +2,7 @@
 public 
   /**
  * TicketMachine models a naive ticket machine that issues
- * flat-fare tickets.
+ * flat-fare ticket.
  * The price of a ticket is specified via the constructor.
  * It is a machine in the sense that it trusts its users
  * to insert money before trying to print a ticket.
