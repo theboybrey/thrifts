@@ -24,6 +24,16 @@ const add = document.querySelector(".add");
 const restCount = document.querySelector(".reset");
 const sub = document.querySelector(".subtract");
 
+const hex = document.querySelector('.hex');
+const btn = document.querySelector('.generate');
+
+const generateColor = () => {
+    const randomColor = Math.random().toString(16).substring(2, 8)
+
+    document.body.style.backgroundColor = `#` + randomColor;
+    hex.innerHTML = `#` + randomColor; 
+
+}
 
 function secColor(){
     if (count.innerHTML > 0){
