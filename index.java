@@ -1,4 +1,4 @@
-
+//Java Array List to be added to this class soon
 public 
   /**
  * TicketMachine models a naive ticket machine that issues
